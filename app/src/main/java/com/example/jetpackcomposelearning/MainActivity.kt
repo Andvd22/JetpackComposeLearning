@@ -21,8 +21,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeLearningTheme {
                 Column {
-                    ProfileCard("An", 12, Color.Red)
-                    ProfileCard("Niung", 34, Color.DarkGray)
+                    Greet("An")
+                    Greet("An2")
+                    Greet("An3")
                 }
             }
         }

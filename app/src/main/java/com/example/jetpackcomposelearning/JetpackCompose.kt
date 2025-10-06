@@ -5,9 +5,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 
+//@Composable
+//fun ProfileCard(name:String, age:Int, color: Color){
+//    Text("hello $name, $age, ${color.toString()}")
+//}
+
+//Recomposition
 @Composable
-fun ProfileCard(name:String, age:Int, color: Color){
-    Text("hello $name, $age, ${color.toString()}")
-
-
+fun Greet(name:String){
+    Text("$name")
 }
