@@ -21,9 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             JetpackComposeLearningTheme {
                 Column {
-                    Greet("An")
-                    Greet("An2")
-                    Greet("An3")
+                    CounterScreen()
                 }
             }
         }

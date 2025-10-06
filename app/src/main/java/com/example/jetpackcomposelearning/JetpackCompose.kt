@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 //}
 
 //Recomposition
-@Composable
-fun Greet(name:String){
-    Text("$name")
-}
+//@Composable
+//fun Greet(name:String){
+//    Text("$name")
+//}
